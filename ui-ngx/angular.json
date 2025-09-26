@@ -22,12 +22,12 @@
           "options": {
             "plugins": ["./esbuild/tb-esbuild-plugins.ts"],
             "loader": {
-                ".raw": "text"
+              ".raw": "text"
             },
             "outputPath": {
-                "base": "target/generated-resources/public",
-                "media": ".",
-                "browser": ""
+              "base": "target/generated-resources/public",
+              "media": ".",
+              "browser": ""
             },
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -36,6 +36,7 @@
             "aot": true,
             "assets": [
               "src/thingsboard.ico",
+              "src/hh-logo.ico",
               "src/assets",
               {
                 "glob": "*.svg",
